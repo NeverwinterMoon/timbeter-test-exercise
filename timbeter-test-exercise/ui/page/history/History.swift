@@ -1,7 +1,11 @@
 import SwiftUI
 
 struct History: View {
-  @ObservedObject private(set) var viewModel: ViewModel
+  @StateObject private var viewModel: ViewModel
+
+  init(viewModel: ViewModel) {
+    _viewModel = StateObject(wrappedValue: viewModel)
+  }
 
   var body: some View {
     ZStack {
