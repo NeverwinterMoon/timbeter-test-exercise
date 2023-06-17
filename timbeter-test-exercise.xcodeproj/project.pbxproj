@@ -14,6 +14,7 @@
 		AC3772F6033B66AAB3860DB7 /* UserPermissionServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC377E157479A5D6225E97CC /* UserPermissionServiceType.swift */; };
 		AC37737716E60CFCE9ED19D4 /* Double+toCmFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3779A8C888264B81521D56 /* Double+toCmFormat.swift */; };
 		AC37738BE150FE4ACE03CE36 /* ObservableObject+binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC377D4E3B6A614D8501B611 /* ObservableObject+binding.swift */; };
+		AC3773FF28970FFDA9B4C51A /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = AC37780A681CA9ED88346FC0 /* CHANGELOG.md */; };
 		AC3774363305791F0498C6A2 /* RootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC377F995C814053FBB2D77B /* RootModel.swift */; };
 		AC3774701F7A288E8DD42A85 /* LogMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37718147527ACD74ABC616 /* LogMeasurement.swift */; };
 		AC37765AD1652022C9A255C0 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC377AE2B73D8815BFFF16A5 /* ContentModel.swift */; };
@@ -66,6 +67,7 @@
 		AC37753F24008B1FBD0376F6 /* Encodable+toJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+toJSON.swift"; sourceTree = "<group>"; };
 		AC37762EDE79541804CC4588 /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		AC3777F76F2B7D44396151DF /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		AC37780A681CA9ED88346FC0 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		AC37795C8409E30CAB073F5F /* LogMeasurementServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMeasurementServiceType.swift; sourceTree = "<group>"; };
 		AC3779A8C888264B81521D56 /* Double+toCmFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+toCmFormat.swift"; sourceTree = "<group>"; };
 		AC3779C7F91D57E50468354F /* JSONCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONCodable.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				E244BDAB2A3A0D6B0075DBB4 /* Products */,
 				AC377C9C72EAF9BB95C5D3CD /* README.md */,
 				AC3772E67437FB9962217093 /* .gitignore */,
+				AC37780A681CA9ED88346FC0 /* CHANGELOG.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -401,6 +404,7 @@
 				AC37737716E60CFCE9ED19D4 /* Double+toCmFormat.swift in Sources */,
 				AC377D21DF71672938B6336C /* MeasurementDataView.swift in Sources */,
 				AC3777A1FEA93F0CB554E697 /* README.md in Sources */,
+				AC3773FF28970FFDA9B4C51A /* CHANGELOG.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
