@@ -17,6 +17,7 @@ struct LogMeasurementRepository: LogMeasurementRepositoryType {
     }
 
     let options = PHImageRequestOptions()
+    // This makes sure the callback of PHImageManager.default().requestImage is called only once
     options.deliveryMode = .highQualityFormat
 
     return try await withCheckedThrowingContinuation { continuation in
@@ -25,7 +26,13 @@ struct LogMeasurementRepository: LogMeasurementRepositoryType {
         targetSize: PHImageManagerMaximumSize,
         contentMode: .aspectFit,
         options: options
-      ) { uiImage, _ in
+      ) { uiImage, info in
+        if let error = info?[PHImageErrorKey] as? Error {
+          continuation.resume(throwing: error)
+
+          return
+        }
+
         guard let uiImage = uiImage else {
           continuation.resume(throwing: TimbeterError.generic)
 
